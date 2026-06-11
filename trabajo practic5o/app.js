@@ -14,7 +14,7 @@ let precio3 = 1;
 let total = precio1 + precio2 + precio3;
 let comidafav = 'sorrentinos';
 let colorfav = 'violeta';
-let númerofav = 6;
+let númerofav = 11;
 let pais = 'Argentina';
 
 //suma
