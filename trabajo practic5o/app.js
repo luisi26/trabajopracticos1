@@ -16,9 +16,14 @@ let comidafav = 'sorrentinos';
 let colorfav = 'violeta';
 let númerofav = 11;
 let pais = 'Argentina';
+let titulo = document.querySelector('button')
+let boton = document.querySelector
+titulo.textContent = 'hola'
+titulo.style.color = 'purple'
+boton.onclick = function()
 
 //suma
-suma = number1 + number2;
+ suma = number1 + number2;
 
 
 alert(' el resultado de sumar '+ number1 +' y ' + number2 + ' es '+ suma);
