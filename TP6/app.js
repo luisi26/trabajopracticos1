@@ -4,7 +4,7 @@ let boton3 = document.querySelector ('#b3')
 let boton4 = document.querySelector ('#b4')
 let parrafo = document.querySelector ('#p1')
 let boton5 = document.querySelector ( '#tamaño')
-let reiniciar = document.querySelector ('#reinicio')
+let boton6= document.querySelector ('#reinicio')
 boton1.onclick = function(){
     parrafo.style.backgroundColor ='white'
 }
@@ -25,5 +25,11 @@ boton3.onclick= function() {
  boton5.onclick= function(){
     parrafo.style.fontSize = '30px'
 }
-
+boton6.onclick = function(){
+    parrafo.textContent= "Se llama Run It y esta en todas las plataformas digitales.Miren el MV en la cuenta oficial"
+    parrafo.style.backgroundColor= ""
+    parrafo.style.color = ""
+    parrafo.style.fontFamily = ""
+    parrafo.style.fontFamily =""
+}
 
