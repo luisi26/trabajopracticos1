@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+justify-content: center;
+}
+
+
+#b1{
+    background-color: rgb(255, 157, 226);
+    color:black
+    padding : 10px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+
+}
+#b1:hover{
+    background-color: rgb(250, 173, 213);
+    transform: scale(1.2);
+}
+#p1{
+    text-align: center;
+}
